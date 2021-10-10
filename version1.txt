@@ -1,0 +1,56 @@
+esphome:
+  name: test
+  platform: ESP8266
+  board: d1_mini
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+  password: "XXXX"
+
+wifi:
+  ssid: "SSID"
+  password: "XXXX"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Fallback Hotspot"
+    password: "XXXX"
+
+captive_portal:
+
+keypad:
+  id: mykeypad
+  rows:
+    - pin: D7
+    - pin: D6
+    - pin: D5
+    - pin: D0
+  columns:
+    - pin: D4
+    - pin: D3
+    - pin: D2
+    - pin: D1
+  keys: "123A456B789C*0#D"
+  has_diodes: false
+  
+text_sensor:
+  - platform: keypad
+    id: reader
+    keypad_id: mykeypad
+    max_length: 4
+    end_keys: "#"
+    back_keys: "*"
+    allowed_keys: "0123456789"
+    on_progress:
+      - logger.log: 
+          format: "input progress: '%s'"
+          args: [ 'x.c_str()' ]
+    on_value:
+      - logger.log: 
+          format: "input result: '%s'"
+          args: [ 'x.c_str()' ]
