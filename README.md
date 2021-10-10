@@ -26,6 +26,6 @@ There are 2 versions for this little project. Both uses a D1 mini and a 4x4 matr
 3) Make a new ESPHome project, the file with extension .yaml need to look like the version2.yaml file. Past it into your newly created project and change your Wi-Fi SSID and all the passwords.
 4) Upload the code to the D1 mini by using a micro USB connected to the PC you're working on or the hardware where your Home Assistant and ESPHome is running on.
 
-##If you really like this guide and want to support me:
+## If you really like this guide and want to support me:
 
 <a href="https://www.buymeacoffee.com/rubs" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a> 
