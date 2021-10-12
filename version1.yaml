@@ -37,10 +37,37 @@ keypad:
     - pin: D1
   keys: "123A456B789C*0#D"
   has_diodes: false
-  
+
+binary_sensor:
+  - platform: keypad
+    keypad_id: mykeypad
+    name: keyA
+    id: keyA
+    row: 0
+    col: 3
+  - platform: keypad
+    keypad_id: mykeypad
+    name: keyB
+    id: keyB
+    row: 1
+    col: 3
+  - platform: keypad
+    keypad_id: mykeypad
+    name: keyC
+    id: keyC
+    row: 2
+    col: 3
+  - platform: keypad
+    keypad_id: mykeypad
+    name: keyD
+    id: keyD
+    row: 3
+    col: 3
+
 text_sensor:
   - platform: keypad
     id: reader
+    name: insertedcode
     keypad_id: mykeypad
     max_length: 4
     end_keys: "#"
