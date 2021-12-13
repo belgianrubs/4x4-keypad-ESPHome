@@ -4,8 +4,8 @@ There are 2 versions for this little project. Both uses a D1 mini and a 4x4 matr
 
 ## Version 1
 ### Components list
-* [D1 mini](https://www.aliexpress.com/item/1005001604805832.html)
-* [4x4 Matrix Keypad](https://www.aliexpress.com/item/4000873237364.html)
+* [D1 mini](https://s.click.aliexpress.com/e/_98eTUE)
+* [4x4 Matrix Keypad](https://s.click.aliexpress.com/e/_9jFvLC)
 * Some wires
 ### Guide
 1) [Download](https://github.com/ssieb/custom_components/tree/master/keypad) the keypad custom component. Place the full keypad directory in /config/esphome/custom_components of your Home Assistant instance. 
@@ -16,9 +16,9 @@ There are 2 versions for this little project. Both uses a D1 mini and a 4x4 matr
 
 ## Version 2
 ### Components list
-* [D1 mini](https://www.aliexpress.com/item/1005001604805832.html)
-* [4x4 Matrix Keypad](https://www.aliexpress.com/item/4000873237364.html)
-* [I/O Expander SX1509](https://www.aliexpress.com/item/32778886595.html)
+* [D1 mini](https://s.click.aliexpress.com/e/_98eTUE)
+* [4x4 Matrix Keypad](https://s.click.aliexpress.com/e/_9jFvLC)
+* [I/O Expander SX1509](https://s.click.aliexpress.com/e/_9IorLu)
 * Some wires
 ### Guide
 1) [Download](https://github.com/ssieb/custom_components/tree/master/keypad) the keypad custom component. Place the full keypad directory in /config/esphome/custom_components of your Home Assistant instance. 
